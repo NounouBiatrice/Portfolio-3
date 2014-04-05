@@ -1,0 +1,413 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+    /*text-align: center;*/
+}
+
+body {
+    width: 75%;
+    margin: 0 auto;
+    background-color: #AAC331;
+    color: #0377DA;
+}
+
+#content {
+    overflow: auto;
+}
+
+#nav, #feature {
+    margin: 0.5%;
+}
+
+
+#footer {
+    margin: 0.5%;
+    text-align: center;
+    padding: 0.5em 0;
+}
+
+#mainfooter{
+    text-align: center;
+    font-size: 75%;
+}
+
+.column1, .column2, .column3 {
+    width: 31.3%;
+    float: left;
+    margin: 1.0%;
+}
+
+.column1and2 {
+    width: 62.6%;
+    float: left;
+    margin: 1%;
+}
+
+#nav {
+    padding: 0.5em 0;
+    font-size: 125%;
+}
+
+
+#feature, .article {
+    /*min-height: 15em;*/
+    margin-bottom: 1em;
+    background-color: #e8e5e1;
+}
+
+.clearfix {
+    clear: both;
+    font-size: 1px;
+    line-height: 0px;
+    height: 0px;
+}
+
+#siteName {
+    font-family: 'Paytone One', Arial, Verdana, sans-serif;
+    font-size: 225%;
+    text-align: center;
+}
+
+#menu {
+    text-align: center;
+    padding-bottom: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 1%;
+}
+
+.menutitle {
+    font-weight: bold;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    font-size: 150%;
+    text-align: center;
+}
+
+.menuitem {
+    text-align: left;
+    font-size: 115%;
+}
+
+.menuitemprice {
+    text-align: right;
+    font-size: 115%;
+}
+
+.menutext {
+    text-align: left;
+    font-size: 115%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+.berrysimage {
+    max-width: 75%;
+    padding-bottom: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5%;
+}
+
+.berrysfoodtype1 {
+    max-width: 75%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 12%;
+}
+.berrysfoodtype2 {
+    max-width: 75%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+}
+
+.text {
+    text-align: justify;
+    padding-bottom: 2.5%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-top: 2.5%;
+}
+
+.text1 {
+    text-align: justify;
+    padding-bottom: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+}
+
+.text2 {
+    font-size: 125%;
+    text-align: justify;
+    padding-bottom: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+}
+
+iframe.map {
+    max-width: 65%;
+    /*width: 65%;	/* normal size is 425px;*/
+    /*height: 65%;	/*normal size is 350px;*/
+    overflow: auto;
+    margin: auto;
+    display: block;
+}
+
+.photos01 {
+    display: block;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    max-width: 75%;
+}
+
+.photos02 {
+    display: inline;
+    float: right;
+    margin-bottom: 3%;
+    margin-left: 2%;
+    margin-right: 4.5%;
+    max-width: 30%;
+}
+
+.photos03 {
+    display: block;
+    margin-bottom: 2.5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.5%;
+    max-width: 75%;
+}
+
+.mainform article {
+    max-width: 75%;
+    text-align: left;
+}
+
+table.contactform td {
+    padding-left: 0;
+    vertical-align: top;
+}
+td {
+    border-collapse: collapse;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+
+table.contactform {
+    margin: 0 auto 0px auto;
+    width: 50%;
+    padding-left: 0px;
+}
+
+table.contactform td {
+    vertical-align: top;
+    padding-left: 0px;
+}
+
+td.submit {
+    text-align: center;
+}
+
+input {
+    width: 16em;
+    min-height: 1em;
+}
+.comments textarea {
+    height: 7em;
+    width: 16em;
+}
+
+div.opi1 {
+    text-align: center;
+    font-size: 125%;
+}
+
+.titleres{
+    text-align: left;
+    padding-bottom: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;     
+}
+.titleres1{
+    font-size: 150%;
+    text-align: left;
+    padding-bottom: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;     
+}
+
+.titleres0{
+    font-size: 200%;
+    text-align: left;
+    padding-bottom: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;     
+}
+
+.titleres4{
+    font-size: 250%;
+    text-align: center;
+    padding-bottom: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;     
+}
+
+.guarantee {
+    max-width: 75%;
+    padding-left: 85%;
+}
+
+.giftcard {
+    max-width: 75%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.reviews {
+    margin-bottom: 2.5em;
+}
+
+.addressinfo {
+    margin-bottom: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+}
+
+/* default style */
+.selectnav {
+    display: none;
+}
+
+/*Configurable CSS*/
+header nav {
+    text-align: center;
+    background: #869a27;
+    /*background: #bc5e1b;*/
+    /*background: #efefef;*/
+}
+header nav ul {
+    margin: 0;
+    padding: 1em;
+    list-style-type: none;
+}
+header nav ul li {
+    display: inline;
+    margin-left: 1em;
+}
+header nav ul li:first-child {
+    margin-left: 0;
+}
+header nav ul li ul {
+    display: none;
+}
+a {
+    color: #025ca8
+        /*color: #f77564;*/
+}
+a:hover {
+    color: #0c0c0c;
+    /*color: #333;*/
+
+}
+a, a:hover {
+    -o-transition: color 0.25s ease-in;
+    -webkit-transition: color 0.25s ease-in;
+    -moz-transition: color 0.25s ease-in;
+    transition: color 0.25s ease-in;
+}
+
+header {
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+@media all and (max-width: 48.500em) {
+
+    .column1, .column2, .column3 {
+        width: 100%;
+        float: none;
+        margin: 1%;
+    }
+
+    .column1and2 {
+        width: 100%;
+        float: none;
+        margin: 1%;
+    }
+
+    #feature, .article {
+        min-height: 10em;
+        margin-bottom: 1em;
+        background-color: #e8e5e1;
+    }
+
+    .berrysfoodtype1 {
+        max-width: 75%;
+        padding-bottom: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 5%;
+    }
+
+    .berrysfoodtype2 {
+        max-width: 75%;
+        padding-bottom: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 5%;
+    }
+
+    #siteName {
+        font-family: 'Paytone One', Arial, Verdana, sans-serif;
+        font-size: 95%;
+        text-align: center;
+    }
+
+    .text2 {
+        font-size: 95%;
+        text-align: left;
+        padding-bottom: 1%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 1%;
+    }
+
+    
+    
+    .guarantee {
+        max-width: 75%;
+        padding-left: 60%;
+    }
+}
+
+@media all and (max-width: 30em) {
+
+    #siteName {
+        font-family: 'Paytone One', Arial, Verdana, sans-serif;
+        font-size: 65%;
+        text-align: center;
+    }
+
+    .js #nav {
+        display: none;
+    }
+
+    .js .selectnav {
+        display: block;
+    }
+
+}
